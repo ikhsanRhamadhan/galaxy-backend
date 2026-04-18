@@ -1,0 +1,24 @@
+[
+  {
+    "sender_name": "jdwidj",
+    "sender_address": "dnwkdn",
+    "sender_phone": "dwk dk",
+    "receiver_name": "dwkndnw",
+    "receiver_address": "dw dk",
+    "receiver_phone": "wdkd wnd",
+    "destination_id": "8c3e5afa-bef5-4b57-b156-898500488688",
+    "service_id": "01576fde-514e-48de-8f10-fab9642458c5",
+    "weight": 100.0,
+    "description": "em2me2",
+    "notes": "e2 eem2e",
+    "customer_id": "eed1b665-f7cb-445a-bdbb-8708f9c829c5",
+    "resi_number": "GMT202604090001",
+    "total_cost": 1400000.0,
+    "status": "dikirim",
+    "created_by": "b506cf96-d863-49a8-ac25-b35be823a98d",
+    "created_by_name": "Administrator",
+    "id": "45273fc2-3555-436e-b053-155642420457",
+    "created_at": "2026-04-09T16:48:05.249451",
+    "updated_at": "2026-04-09T22:25:11.644262"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "7705ee29-6374-42b9-903c-e46502faf2bc",
+    "city": "Jakarta",
+    "province": "DKI Jakarta",
+    "zone": "A",
+    "surcharge": 0,
+    "created_at": "2026-04-09T15:39:00.271928"
+  },
+  {
+    "id": "7648060e-ec44-45a7-a696-68e06c818f25",
+    "city": "Surabaya",
+    "province": "Jawa Timur",
+    "zone": "B",
+    "surcharge": 5000,
+    "created_at": "2026-04-09T15:39:00.271928"
+  },
+  {
+    "id": "4dcba524-cc39-4b12-abe9-2fc664a4105b",
+    "city": "Bandung",
+    "province": "Jawa Barat",
+    "zone": "A",
+    "surcharge": 2000,
+    "created_at": "2026-04-09T15:39:00.271928"
+  },
+  {
+    "id": "1b90458a-95e4-4492-8439-4069404266e7",
+    "city": "Medan",
+    "province": "Sumatera Utara",
+    "zone": "C",
+    "surcharge": 10000,
+    "created_at": "2026-04-09T15:39:00.271928"
+  },
+  {
+    "id": "8d4a76f3-437a-4acc-ab97-d6c26c21a084",
+    "city": "Makassar",
+    "province": "Sulawesi Selatan",
+    "zone": "C",
+    "surcharge": 12000,
+    "created_at": "2026-04-09T15:39:00.271928"
+  },
+  {
+    "id": "1dd4c85a-ed44-4ecc-a787-4ca0139df160",
+    "city": "Semarang",
+    "province": "Jawa Tengah",
+    "zone": "B",
+    "surcharge": 3000,
+    "created_at": "2026-04-09T15:39:00.271928"
+  },
+  {
+    "id": "6930d96b-ab57-4e14-a3b3-371734a4a5a1",
+    "city": "Yogyakarta",
+    "province": "DI Yogyakarta",
+    "zone": "B",
+    "surcharge": 4000,
+    "created_at": "2026-04-09T15:39:00.271928"
+  },
+  {
+    "id": "04f513eb-e950-42e6-b014-2eeedc54cfa5",
+    "city": "Palembang",
+    "province": "Sumatera Selatan",
+    "zone": "C",
+    "surcharge": 8000,
+    "created_at": "2026-04-09T15:39:00.271928"
+  },
+  {
+    "id": "8c3e5afa-bef5-4b57-b156-898500488688",
+    "city": "Denpasar",
+    "province": "Bali",
+    "zone": "B",
+    "surcharge": 6000,
+    "created_at": "2026-04-09T15:39:00.271928"
+  },
+  {
+    "id": "64a8af3b-872e-4996-a739-f3249e0af198",
+    "city": "Pontianak",
+    "province": "Kalimantan Barat",
+    "zone": "C",
+    "surcharge": 15000,
+    "created_at": "2026-04-09T15:39:00.271928"
+  }
+]

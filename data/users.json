@@ -1,0 +1,38 @@
+[
+  {
+    "id": "b506cf96-d863-49a8-ac25-b35be823a98d",
+    "username": "admin",
+    "password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+    "role": "admin",
+    "name": "Administrator",
+    "email": "admin@galaxymultitrans.com",
+    "created_at": "2026-04-09T15:39:00.271928"
+  },
+  {
+    "id": "3604a914-2fe0-4e83-9933-2a4c25d51033",
+    "username": "staff",
+    "password": "10176e7b7b24d317acfcf8d2064cfd2f24e154f7b5a96603077d5ef813d6a6b6",
+    "role": "staff",
+    "name": "Staff Operasional",
+    "email": "staff@galaxymultitrans.com",
+    "created_at": "2026-04-09T15:39:00.271928"
+  },
+  {
+    "id": "b26168b5-81d7-4e7f-a11b-20c35cba9d43",
+    "username": "keuangan",
+    "password": "08cafdcd382ab4240e3d73f0dfa657aef83f9a0bbbdc9371be8f8da245647447",
+    "role": "keuangan",
+    "name": "Staff Keuangan",
+    "email": "keuangan@galaxymultitrans.com",
+    "created_at": "2026-04-09T15:39:00.271928"
+  },
+  {
+    "username": "ikhsan",
+    "password": "49f0524f5ca16ed2368cc13e8eef82d67c9d9a45a925e466078d4207e4050f80",
+    "role": "admin",
+    "name": "Muhamad Ikhsan Ramadhan",
+    "email": "iksanpribadi90@gmail.com",
+    "id": "5ee503ae-fc63-4fd2-aab5-f28a7ec9e10b",
+    "created_at": "2026-04-09T22:39:53.496180"
+  }
+]
