@@ -19,6 +19,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
 app.include_router(auth.router, prefix="/api/auth", tags=["Auth"])
 app.include_router(customers.router, prefix="/api/customers", tags=["Customers"])
 app.include_router(destinations.router, prefix="/api/destinations", tags=["Destinations"])
@@ -58,18 +59,3 @@ async def get_dashboard(current_user: dict = Depends(auth.get_current_user)):
 @app.get("/")
 async def root():
     return {"message": "PT Galaxy Multi Trans API", "version": "1.0.0"}
-
-@app.post("/auth/login")
-async def login(req: LoginRequest):
-    user = db.find_one("users", {"username": req.username})
-    if not user or user["password"] != req.password:
-        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid credentials")
-    
-    token_data = {
-        "user_id": user["id"],
-        "username": user["username"],
-        "exp": datetime.utcnow() + timedelta(hours=24)
-    }
-    token = jwt.encode(token_data, "SECRET_KEY", algorithm="HS256")
-    
-    return {"token": token, "user": {"id": user["id"], "username": user["username"], "role": user["role"]}}

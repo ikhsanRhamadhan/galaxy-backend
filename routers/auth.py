@@ -3,12 +3,13 @@ from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 import hashlib
 import jwt
 from datetime import datetime, timedelta
+import os # Import os module
 from models import LoginRequest, UserCreate
 from database import db
 
 router = APIRouter()
 security = HTTPBearer()
-SECRET_KEY = "galaxy-multi-trans-secret-2024"
+SECRET_KEY = os.getenv("JWT_SECRET_KEY", "galaxy-multi-trans-secret-2024-fallback-key") # Load from env, provide fallback
 ALGORITHM = "HS256"
 
 def hash_password(password: str) -> str:
