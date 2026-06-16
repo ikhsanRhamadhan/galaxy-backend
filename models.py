@@ -56,6 +56,7 @@ class InvoiceCreate(BaseModel):
     shipment_id: str
     tax_percent: Optional[float] = 11.0
     discount_amount: Optional[float] = 0
+    dp_percent: Optional[float] = 0.0
     notes: Optional[str] = ""
 
 class InvoiceUpdate(BaseModel):
@@ -64,3 +65,4 @@ class InvoiceUpdate(BaseModel):
     notes: Optional[str] = None
     tax_percent: Optional[float] = None
     discount_amount: Optional[float] = None
+    dp_percent: Optional[float] = None
