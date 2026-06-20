@@ -25,5 +25,14 @@
     "name": "Staff Keuangan",
     "email": "keuangan@galaxymultitrans.com",
     "created_at": "2026-06-07T21:51:39.206320"
+  },
+  {
+    "username": "Ikhsan",
+    "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+    "role": "admin",
+    "name": "Muhamad Ikhsan Ramadhan",
+    "email": "ikhsan@gmail.com",
+    "id": "e246e505-1624-4812-b545-aa7000cc1864",
+    "created_at": "2026-06-16T19:17:36.717291"
   }
 ]
