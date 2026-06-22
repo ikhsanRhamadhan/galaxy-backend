@@ -1,13 +1,5 @@
 [
   {
-    "id": "4e0685b9-5613-48e1-a464-47c6fcd009a8",
-    "city": "Jakarta",
-    "province": "DKI Jakarta",
-    "zone": "A",
-    "surcharge": 0,
-    "created_at": "2026-06-07T21:51:39.214840"
-  },
-  {
     "id": "cbbb15fd-9742-4268-9382-e0cc4ad4756a",
     "city": "Surabaya",
     "province": "Jawa Timur",
